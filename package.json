@@ -1,0 +1,19 @@
+{
+    "name": "openmemory-mcp-claude-starter",
+    "version": "1.0.0",
+    "description": "starter for openmemory mcp server",
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "ts-node src/index.ts",
+        "build": "tsc"
+    },
+    "dependencies": {
+        "openmemory-js": "^0.0.1",
+        "@modelcontextprotocol/sdk": "^0.0.1"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0",
+        "ts-node": "^10.0.0",
+        "@types/node": "^20.0.0"
+    }
+}
